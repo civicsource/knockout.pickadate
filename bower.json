@@ -1,0 +1,26 @@
+{
+  "name": "knockout-pickadate",
+  "version": "1.0.0",
+  "main": "knockout.pickadate.js",
+  "description": "Simple knockout binding that wraps pickadate.js",
+  "keywords": [
+    "knockout",
+    "pickadate",
+    "date picker"
+  ],
+  "authors": [
+    "Archon Information Systems"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ArchonInfoSys/knockout-pickadate",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "knockout": "~3.1.0",
+    "jquery": "~1.10",
+    "pickadate": "~3.5.2",
+    "require-css": "~0.1.4"
+  }
+}
