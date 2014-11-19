@@ -17,4 +17,20 @@ See the [pickadate documentation](http://amsul.ca/pickadate.js/date.htm) for opt
 <input data-bind="value: myDate, pickadate:{ editable: true }" />
 ```
 
-If you load it via the AMD loader, it brings in the required CSS files for the date picker. See the [require-css documentation](https://github.com/guybedford/require-css) for how to configure that.
+If you load it via the AMD loader, it brings in the required CSS files for the date picker. You will want a requirejs config that looks something like this:
+
+```js
+paths: {
+	"knockout.date-picker": "../bower_components/knockout-date-picker/knockout.date-picker",
+	"picker": "../bower_components/pickadate/lib/picker",
+	"picker.date": "../bower_components/pickadate/lib/picker.date",
+	"picker.time": "../bower_components/pickadate/lib/picker.time"
+},
+map: {
+	"*": {
+		"pickadate": "../bower_components/pickadate/lib/"
+	}
+}
+```
+
+where `../bower_components` is the path to your `bower_components` folder.
