@@ -1,7 +1,7 @@
-(function(root, factory) {
+(function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		// AMD. Register as an anonymous module.
-		define(["jquery", "knockout", "picker.date", "picker.time", "css!pickadate/themes/classic", "css!pickadate/themes/classic.date"], factory);
+		define(["jquery", "knockout", "picker.date", "picker.time", "css!pickadate/themes/classic", "css!pickadate/themes/classic.date", "css!pickadate/themes/classic.time"], factory);
 	} else {
 		// Browser globals
 		factory($, ko);
