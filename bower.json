@@ -1,6 +1,6 @@
 {
   "name": "knockout-pickadate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "knockout.pickadate.js",
   "description": "Simple knockout binding that wraps pickadate.js",
   "keywords": [
@@ -20,7 +20,7 @@
   "dependencies": {
     "knockout": "~3.1.0",
     "jquery": "~1.10",
-    "pickadate": "~3.5.2",
+    "pickadate": "=3.5.4",
     "require-css": "~0.1.4"
   }
 }
