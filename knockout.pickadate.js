@@ -13,7 +13,14 @@
 	ko.bindingHandlers.pickadate = {
 		init: function (element, valueAccessor, allBindingsAccessor) {
 			var options = ko.utils.unwrapObservable(valueAccessor()) || {};
-			$(element).pickadate(options);
+			var valueBinding = allBindingsAccessor.get("value");
+			$(element).pickadate(Object.assign({}, options, {
+				onSet: function() {
+					if (valueBinding) {
+						valueBinding(element.value);
+					}
+				}
+			}));
 		}
 	};
 	ko.bindingHandlers.pickatime = {
