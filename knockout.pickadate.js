@@ -3,9 +3,9 @@ var $ = require("jquery");
 require("pickadate/lib/picker");
 require("pickadate/lib/picker.date");
 require("pickadate/lib/picker.time");
-require("css!pickadate/lib/themes/classic.css");
-require("css!pickadate/lib/themes/classic.date.css");
-require("css!pickadate/lib/themes/classic.time.css");
+require("pickadate/lib/themes/classic.css");
+require("pickadate/lib/themes/classic.date.css");
+require("pickadate/lib/themes/classic.time.css");
 
 ko.bindingHandlers.pickadate = {
 	init: function (element, valueAccessor, allBindingsAccessor) {
