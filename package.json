@@ -27,7 +27,6 @@
     "eslint-plugin-filenames": "1.x"
   },
   "dependencies": {
-    "css-loader": "^0.23.1",
     "jquery": "*",
     "pickadate": "^3.x"
   }
