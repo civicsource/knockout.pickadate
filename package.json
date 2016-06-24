@@ -1,0 +1,33 @@
+{
+  "name": "knockout.pickadate",
+  "version": "3.0.0",
+  "description": "Simple knockout binding which wraps pickadate.js",
+  "main": "knockout.pickadate.js",
+  "scripts": {
+    "lint": "eslint . --format=unix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civicsource/knockout.pickadate.git"
+  },
+  "keywords": [
+    "knockout",
+    "pickadate",
+    "datepicker"
+  ],
+  "author": "CivicSource",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civicsource/knockout.pickadate/issues"
+  },
+  "homepage": "https://github.com/civicsource/knockout.pickadate#readme",
+  "devDependencies": {
+    "babel-eslint": "6.x",
+    "eslint": "2.x",
+    "eslint-plugin-filenames": "1.x"
+  },
+  "dependencies": {
+    "jquery": "*",
+    "pickadate": "^3.x"
+  }
+}
